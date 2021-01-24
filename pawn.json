@@ -1,7 +1,23 @@
 {
-	"user": "whydlr",
-	"repo": "gmtime",
-	"dependencies": [
-		"sampctl/samp-stdlib"
-	]
+    "user": "whydlr",
+    "repo": "gmtime",
+    "resources": [
+        {
+            "name": "^gmtime.zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/gmtime.so"]
+        },
+        {
+            "name": "^gmtime.zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/gmtime.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["patryk110200/gmtime_fix"]
+    }
 }
