@@ -3,14 +3,14 @@
     "repo": "gmtime",
     "resources": [
         {
-            "name": "^gmtime.zip$",
+            "name": "gmtime.zip",
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
             "plugins": ["plugins/gmtime.so"]
         },
         {
-            "name": "^gmtime.zip$",
+            "name": "gmtime.zip",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
