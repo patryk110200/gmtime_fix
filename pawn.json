@@ -1,0 +1,7 @@
+{
+	"user": "whydlr",
+	"repo": "gmtime",
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	]
+}
